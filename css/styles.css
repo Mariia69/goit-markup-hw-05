@@ -42,6 +42,7 @@ p {
 }
 ul,
 ol {
+  list-style: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -124,7 +125,7 @@ body {
   display: block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  text-decoration: none;
 }
 .current::after {
   display: block;
@@ -333,6 +334,7 @@ text-align: center;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .socials{ align-items: center;
   justify-content: center;
@@ -391,7 +393,6 @@ background-color: #404bbf;
   row-gap: 48px;
 }
 .portfolio-list {
-  border: 1px solid #F4F4FD;
 background: #FFF;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
@@ -454,8 +455,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #2e2f42;
 }
 .footer-container {
-  flex-direction: column;
-  margin: 0 auto;
   display: flex;
   align-items: baseline;
 }
