@@ -573,7 +573,7 @@ body {
   align-items: center;
   border-radius: 4px;
   background-color: #4d5ae5;
-  max-width: 165px;
+  min-width: 165px;
   border: none;
   color: #fff;
   text-align: center;
